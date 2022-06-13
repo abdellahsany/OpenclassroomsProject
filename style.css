@@ -1,0 +1,84 @@
+#con1 
+{
+    margin: auto;
+      margin-bottom: 100px;
+}
+#fonction 
+{
+    font-size: 0.13em;
+    font-style: normal;
+    text-align: center;
+}       
+#wrap 
+{
+    float:left;
+    width:90%;
+    min-height:900px;
+}
+#head
+{
+  display: flex;
+  justify-content: start;
+}
+#banniere 
+{
+    width: 5%;
+    height: 882px;
+    background-color: blue;
+    float: left;
+    border-style: inset;
+    background-attachment: fixed;
+}
+.titre 
+{
+    color: black;
+} 
+
+#carton1 
+{
+      display: flex;
+      justify-content: start;
+}
+.bloc1:nth-child(1)
+{
+    width: 1000%;
+    margin-left: 4%;
+}
+h3
+{  
+    box-shadow: 5px 5px 5px blue;
+     text-align: center;
+      margin: 5px; 
+}
+h1
+{ 
+   text-align: center;
+}   
+body
+{
+    background-image: url(https://c.wallhere.com/photos/77/f9/1920x1080_px_minimalism_Tatof_Techno-541441.png!d);
+    background-attachment: fixed;
+}
+@font-face 
+{
+    font-family: 'Oswald';
+    src: url('Oswald.eot') format('eot'),
+         url('Oswald.woff') format('woff'),
+         url('Oswald.ttf') format('truetype'),
+         url('Oswald.svg') format('svg');
+
+}
+h1, h2, h3, .bloc1 /* Utilisation de la police qu'on vient de définir sur les titres */
+{
+    font-family: 'Oswald', Arial, "Verdana", sans-serif;
+}
+strong
+{
+color : blue;
+}
+@media all and (max-width: 1024px)
+{
+#banniere, img
+{
+    display: none;
+}
